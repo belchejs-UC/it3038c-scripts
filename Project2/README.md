@@ -1,6 +1,7 @@
 I created a simple to use multi-function calcualtor based off of the program found at https://www.digitalocean.com/community/tutorials/how-to-make-a-calculator-program-in-python-3
 
 My program uses a set of initial functions chosen by the user
+
     def calculation():
      operation = input('''
     Please choose the symbol corresponding to the math operation that you would like to complete
