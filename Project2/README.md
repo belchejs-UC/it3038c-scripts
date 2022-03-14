@@ -16,9 +16,9 @@ You then input two different numbers
     number_1 = int(input('Enter your first number: '))
     number_2 = int(input('Enter your second number: '))
     
-The program then runs a function that takes the mathematical operation that the user chooses and those two numerical inputs to determine your answer. 
-#Addition
-
+The program then runs a function that takes the mathematical operation chose by the user and the earlier numerical inputs to determine your answer. 
+       
+    #Addition
     if operation == '+':
         print('{} + {} = '.format(number_1, number_2))
         print(number_1 + number_2)
