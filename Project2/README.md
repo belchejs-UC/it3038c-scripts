@@ -20,17 +20,17 @@ The program then runs a function taht takes the mathematical operation that the 
         print('{} + {} = '.format(number_1, number_2))
         print(number_1 + number_2)
 
-#Subtraction
+    #Subtraction
     elif operation == '-':
         print('{} - {} = '.format(number_1, number_2))
         print(number_1 - number_2)
 
-#Multiplication
+    #Multiplication
     elif operation == '*':
         print('{} * {} = '.format(number_1, number_2))
         print(number_1 * number_2)
 
-#Division
+    #Division
     elif operation == '/':
         print('{} / {} = '.format(number_1, number_2))
         print(number_1 / number_2)
