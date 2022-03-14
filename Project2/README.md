@@ -1,19 +1,20 @@
 I created a simple to use multi-function calcualtor based off of the program found at https://www.digitalocean.com/community/tutorials/how-to-make-a-calculator-program-in-python-3
+
 My program uses a set of initial functions chosen by the user
-def calculation():
-    operation = input('''
-Please choose the symbol corresponding to the math operation that you would like to complete
-+ for addition
-- for subtraction
-* for multiplication
-/ for division
-''')
+    def calculation():
+     operation = input('''
+    Please choose the symbol corresponding to the math operation that you would like to complete
+    + for addition
+    - for subtraction
+    * for multiplication
+    / for division
+    ''')
 
 You then input two different numbers
     number_1 = int(input('Enter your first number: '))
     number_2 = int(input('Enter your second number: '))
     
-The program then runs a function taht takes the mathematical operation that the user chooses and those two numerical inputs to determine your answer. 
+The program then runs a function that takes the mathematical operation that the user chooses and those two numerical inputs to determine your answer. 
 #Addition
 
     if operation == '+':
@@ -42,8 +43,6 @@ The program then runs a function taht takes the mathematical operation that the 
     
  The program then asks the user if they would like to repeat the process and leaves them with a kind message if they choose to close the program. 
 
-#to run the calculation function again after its completion, we create a function called "repeat"
-def repeat():
 
     repeat_calc = input(''' Would you like to run another calculation? Type Y for yes or N for no: ''')
 
