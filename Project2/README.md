@@ -12,6 +12,7 @@ My program uses a set of initial functions chosen by the user
     ''')
 
 You then input two different numbers
+
     number_1 = int(input('Enter your first number: '))
     number_2 = int(input('Enter your second number: '))
     
@@ -43,7 +44,6 @@ The program then runs a function that takes the mathematical operation that the 
     repeat()
     
  The program then asks the user if they would like to repeat the process and leaves them with a kind message if they choose to close the program. 
-
 
     repeat_calc = input(''' Would you like to run another calculation? Type Y for yes or N for no: ''')
 
