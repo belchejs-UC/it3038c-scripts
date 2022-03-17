@@ -1,5 +1,3 @@
-41 lines (30 sloc)  1022 Bytes
-   
 operation = input('''
 Please choose the symbol corresponding to the math operation that you would like to complete
 1 for addition
