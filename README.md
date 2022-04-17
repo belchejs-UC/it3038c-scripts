@@ -1,4 +1,5 @@
 I created a simple to use multi-function calcualtor based off of the program found at https://www.digitalocean.com/community/tutorials/how-to-make-a-calculator-program-in-python-3
+I decided to add some features to the project such as making sure the calculator loops back to asking the user to enter a new calculation, providing information on if the answer is prime, and letting the user end the program when they are finished using it. I also added some fun ASCII art of a calculator! 
 
 My program uses a set of initial functions chosen by the user
 
